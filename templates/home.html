@@ -19,7 +19,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="/">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Billing</a>
@@ -39,7 +39,7 @@
             <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact</a>
           </li>
           <li>
-            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">About Us</a>
+            <a class="nav-link" href="about" tabindex="-1" aria-disabled="true">About Us</a>
           </li>
         </ul>
         <form class="d-flex">
@@ -49,6 +49,10 @@
       </div>
     </div>
   </nav>
+
+  {% block body %}
+
+  {% endblock %}
   </body>
 
 <script src="../static/js/index.js"></script>
